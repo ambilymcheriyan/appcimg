@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile App Card</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      width: 320px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+    .card-top, .card-middle, .card-bottom {
+      padding: 15px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .card-top {
+      display: flex;
+      align-items: center;
+    }
+    .top-image {
+      width: 5em;
+      height: 4em;
+      border-radius: 50%;
+      margin-right: 15px;
+      background-color: #ddd;
+    }
+    .top-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      text-align: center; 
+      gap: 5px;
+	  padding-left:3em;
+    }
+    .top-info h3 {
+      font-size: 1.2em;
+      color: #333;
+    }
+    .top-info p {
+      font-size: 0.9em;
+      color: #777;
+    }
+    .top-stats img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+    .card-middle {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;	  
+    }
+    .middle-image {      
+      height: 80px;
+      background-color: #fff;
+      border-radius: 5px;
+	  padding-left:1.5em;
+    }
+	.progressbar-image {      
+      height: 0.4em;
+	  width:16em;
+      background-color: #fff;
+      border-radius: 5px;
+	  padding-left:1.5em;	  
+    }
+    .middle-large-image {
+      width: 100%;
+      height: 100px;
+      background-color: #bbb;
+      border-radius: 5px;
+    }
+    .card-bottom {
+      border-bottom: none;
+      text-align: left;	  
+    }
+    .card-bottom p {
+      font-size: 0.95em;
+      color: #666;
+    }
+	
+	
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <!-- Top Part -->
+  <div class="card-top">
+    <!-- <div class="top-image"></div> -->
+	<img class="top-image" src="https://s7d9.scene7.com/is/image/starbucksdev/FY24AppFallFlavorsUS" alt="Coffee Icon">
+    <div class="top-info">
+      <p>Collect up to</p>
+      <h2>75  <img style="height:25px; width:25px;padding-top:0.1em;" src="https://github.com/ambilymcheriyan/appcimg/blob/78ec3329fa6e5b9da616d3a963d455aa72918dd9/gold-star.jpg?raw=true" alt="Gold star"> </h2>
+      <p>BONUS STARS</p>
+	  <p><img style="height:26px; width:23px;padding-top:0.2em;" src="https://raw.githubusercontent.com/ambilymcheriyan/appcimg/refs/heads/main/2days.jpg" alt="2 days"> days remaining</p>
+	  
+    </div>
+  </div>
+
+  <!-- Middle Part -->
+  <div class="card-middle">
+    <img class="middle-image" src="https://github.com/ambilymcheriyan/appcimg/blob/78ec3329fa6e5b9da616d3a963d455aa72918dd9/SB_tick.png?raw=true" alt="SB Tick">    
+	<img class="progressbar-image" src="https://github.com/ambilymcheriyan/appcimg/blob/78ec3329fa6e5b9da616d3a963d455aa72918dd9/SB_progress_bar.png?raw=true" alt="SB Progress Bar">
+	<h4 style="padding-left:13em;">75  <img style="height:25px; width:25px;padding-top:0.5em;" src="https://github.com/ambilymcheriyan/appcimg/blob/78ec3329fa6e5b9da616d3a963d455aa72918dd9/gold-star.jpg?raw=true" alt="Gold star"> </h4>
+  </div>
+
+  <!-- Bottom Part -->
+  <div class="card-bottom">
+	<h3 style="padding-bottom:0.75em;">Star Dash</h3>
+	<b>How to Play</b>
+    <p style="padding-bottom:0.5em;padding-top:0.5em;">Collect up to 75 Bonus Stars when you order by October 31.</p>
+	<ul style="padding-left:0.8em;padding-bottom:0.5em;font-size: 0.95em;color: #666;">
+    <li>Collect 75 Bonus Stars when you order 3 times.</li>
+  </ul>
+  <p style="padding-bottom:0.5em;">You can track your Star Dash progress right here in the app.</p>
+  <p>Offer valid through 10/31/2024.</p>
+  </div>
+</div>
+
+</body>
+</html>
